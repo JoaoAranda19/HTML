@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moto</title>
+  </head>
+  <body>
+    <header>
+      <h1>Motos</h1>
+    </header>
+    <main>
+      <section>
+        <h2>Qual sua moto do sonho?</h2>
+        <form action="#" method="get">
+          <fieldset>
+            <legend>Diga mais sobre ela</legend>
+            <div>
+              <label for="nome_id">Marca</label>
+              <input id="nome_id" name="nome" type="text" />
+            </div>
+            <div>
+              <label for="email_id">Modelo</label>
+              <input id="email_id" name="email" type="email" />
+            </div>
+            <div>
+              <label for="telefone_id">Ano</label>
+              <input id="telefone_id" name="telefone" type="tel" />
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Motor</legend>
+            <div>
+              <label for="logradouro_id">Cavalos</label>
+              <input id="logradouro_id" name="logradouro" type="text" />
+            </div>
+            <div>
+              <label for="cidade_id">Cilindradas</label>
+              <input id="cidade_id" name="cidade" type="text" />
+            </div>
+            <div>
+              <label for="numero_id">Estilo</label>
+              <input id="numero_id" name="numero" type="number" />
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Porque desse sonho?</legend>
+            <div>
+              <label for="biografia_id"></label>
+              <textarea
+                id="biografia_id"
+                name="biografia"
+                rows="10"
+                cols="50"
+              ></textarea>
+            </div>
+          </fieldset>
+          <fieldset>
+            <lege>Qual seu nível de pilotagem?</lege>
+            <div>
+              <input
+                id="estagiario_id"
+                name="nivel"
+                type="radio"
+                value="estagiario"
+              />
+              <label for="estagiario_id">Profissional</label>
+            </div>
+            <div>
+              <input id="junior_id" name="nivel" type="radio" value="junior" />
+              <label for="junior_id">Intermediario</label>
+            </div>
+            <div>
+              <input id="junior_id" name="nivel" type="radio" value="junior" />
+              <label for="junior_id">Iniciante</label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Quanto tempo vivido?</legend>
+            <div>
+              <input
+                id="tec_html_id"
+                name="tecnologia"
+                type="checkbox"
+                value="html"
+              />
+              <label for="tec_html_id">15</label>
+            </div>
+            <div>
+              <input
+                id="tec_css_id"
+                name="tecnologia"
+                type="checkbox"
+                value="css"
+              />
+              <label for="tec_css_id">10</label>
+            </div>
+            <div>
+              <input
+                id="tec_js_id"
+                name="tecnologia"
+                type="checkbox"
+                value="js"
+              />
+              <label for="tec_js_id">5</label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Sabe dar grau?</legend>
+            <div>
+              <label for="escolaridade_id">Não</label>
+              <select id="escolaridade_id" name="escolaridade">
+                <option value="graduacao">Não</option>
+                <option value="pos_graduacao">Sim</option>
+              </select>
+            </div>
+          </fieldset>
+          <div>
+            <button type="reset">Limpar</button>
+            <button type="submit">Enviar</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; Grau é arte, é os D</p>
+    </footer>
+  </body>
+</html>
